@@ -1,0 +1,4 @@
+当GUI显示后，可以使用setLookAndFeel（）方法改变L&F
+UIManager.setlookAndFeel(lnfName);
+SwingUtilities.updateComponentTreeUI(frame);
+frame.pack();
